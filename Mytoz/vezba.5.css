@@ -1,0 +1,150 @@
+* {
+	font-family:'Lato';
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+header{
+	border-bottom: 2px solid green;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	align-items: center;
+	
+}
+.main-cont{
+	clip-path:polygon(
+		0 0,
+		100% 0,
+		100% 100%,
+		0 calc(100% - 5vw)
+	);
+	width: 100%;
+	background-color: white;
+	position: relative;
+	
+}
+.logo img{
+	width: 30%
+}
+.dropdown{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px;
+}
+ul{
+	list-style: none;	
+	display: flex;
+}
+li{
+	padding: 10px;
+}
+.signup button{
+	border: 1px solid rgb(209, 16, 48);
+	color: rgb(209, 16, 48);
+	padding: 10px;
+	background-color: white;
+	margin-right: 10px;
+}
+.login button{
+	color: white;
+	padding: 10px;
+	background-color: rgb(209, 16, 48);
+	border: none;
+	margin-right: 10px;
+}
+.green h1, .green p{
+	color: #10c58c;
+	padding: 10px;
+}
+button.btn-yellow{
+	border: none;
+	background-color: yellow;
+	padding: 10px;
+	margin: 10px;
+}
+.yellow{
+display: flex;
+justify-content: end;
+margin-top: 100px;
+}
+img.tel1{
+	display: block;
+margin-left: auto;
+margin-right: auto
+}
+.container2{
+	background-color: #10c58c;
+	margin-top: -6vw;
+	height: 750px;
+
+}
+.tel2 img{
+	position: absolute;
+	top: 550px;
+	bottom: 10px;
+	
+}
+.white{
+width: 40%;
+position: absolute;
+margin-top: -126px;
+}
+.white p, .white h1{
+	color: white;
+	padding: 10px;
+}
+.arrow-left{
+	position: relative;
+}
+.box50{
+	width: 50%;
+	margin:0 auto;
+}
+.container3{
+	width: 100%;
+	background-color: #10c58c;
+
+}
+img.tel3 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.white-2 p, .white-2 h1{
+	color: white;
+	padding: 10px;
+}
+.arrow-left img{
+	position: relative;
+	margin-left: 210px;
+	margin-top: -325px;
+}
+.white-2{
+	position: absolute;
+	z-index: 99;
+	width: 30%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){

@@ -1,0 +1,45 @@
+.main-menu{
+  text-align: left;
+  list-style-type: none;
+
+}
+body{
+ background-image:url("http://www.radiomk.com/wp-content/uploads/2012/05/RadioMK_HomePage.jpg");
+ box-sizing: border-box;
+}
+ul li{
+  display: inline-block;
+ padding: 15px;
+}
+.container{
+  background: white;
+  width: 80%;
+  margin: 0 auto;
+
+}
+.container2{
+  display: flex;
+  
+}
+.box70{
+  width: 70%;
+  padding:0px 15px;
+  
+}
+.box30{
+  width: 30%;
+  padding:0px 15px;
+}
+.slika3{
+  background: rgba(71, 70, 70, 0.3);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+}
+.slika1{
+  position:relative;
+}
+.slika1 img{
+  width: 100%;
+}

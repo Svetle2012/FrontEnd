@@ -1,0 +1,190 @@
+* {
+	font-family:'Lato';
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: beige;
+}
+.container {
+	background-color: grey;
+	box-shadow: 5px 5px 5px gray;
+}
+.box80{
+	width: 80%;
+	margin:0 auto;
+}
+.box80 img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+ul{
+padding: 30px;
+}
+.main-menu li{
+	float: left;
+	list-style: none;
+	padding: 10px;
+}
+.dropdown-menu{
+	display: none;
+}
+.main-menu:hover .dropdown-menu{
+	display: flex;
+	flex-direction: column;
+	color: orange;
+	position: absolute;
+	background-color:gray;
+}
+.main-menu{
+		position: relative;
+	}
+	i{
+		border: solid black;
+		  border-width: 0 3px 3px 0;
+		  display: inline-block;
+		  padding: 3px;
+		}
+		.down {
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		}
+	.main-menu i:hover {
+		transform: rotate(-135deg);
+	}
+		
+.portokalovo{
+	color: orangered;
+}
+.signin{
+	color: rgb(214, 193, 5);
+	float: right;
+	padding-right: 100px;
+	margin: -15px;
+}
+.clearfix{
+	clear: both;
+}
+.container2 {
+ width: 80%;
+ margin: 0 auto;
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ grid-template-rows: repeat(5, 1fr);
+ grid-gap: 20px;
+ padding: 10px;
+}
+.slika img{
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
+}
+.slika{
+	background-color: beige;
+	box-shadow: 5px 5px 5px gray;
+}
+.slika  p{
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+}
+.aa {
+	grid-column: 3/4;
+grid-row: 1/2;
+}
+.a{
+	grid-column: 2/3;
+grid-row: 2/3;
+}
+.b{
+	grid-column: 4/5;
+grid-row: 2/3;
+}
+.c{
+	grid-column: 1/2;
+grid-row: 3/4;
+}
+.d{
+	grid-column: 3/4;
+grid-row: 3/4;
+}
+.e{
+	grid-column: 5/6;
+grid-row: 3/4;
+}
+.f{
+	grid-column: 2/3;
+grid-row: 4/5;
+}
+.g{
+	grid-column: 4/5;
+grid-row: 4/5;
+}
+.h{
+	grid-column: 3/4;
+grid-row: 5/6;
+}
+@media screen and (max-width: 767px){
+	.a{
+		grid-row: 1/1;
+		grid-column: 1/1;
+	}
+	.b{
+		grid-column: 2/3;
+		grid-row: 1/2;
+	}
+	.c{
+		grid-column: 1/2;
+		grid-row: 2/3;
+	}
+	.d{
+		grid-column: 2/3;
+		grid-row: 2/3;
+	}
+	.e{
+		grid-column: 3/4;
+		grid-row: 2/3;
+	}
+	.f{
+		grid-column: 2/3;
+		grid-row: 3/4;
+	}
+	.g{
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
+	.h{
+		grid-column: 3/4;
+		grid-row: 3/4;
+	}
+	.container2{
+		width: 80%;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+ 		grid-template-rows: repeat(3, 1fr);
+	 	grid-gap: 20px;
+		 padding: 10px;
+		 
+	}
+	.box80 img {
+		width: 50px;
+		height: 50px;
+		float: left;
+}
+ul{
+	padding: 10px;
+}
+
+.signin {
+    padding-top: 15px;
+}
+
+button{
+background-color: yellow;
+border: none;
+}

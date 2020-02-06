@@ -1,0 +1,348 @@
+* {
+	font-family:'Lato';
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	background-image: url(http://highgradelab.com/stash/dark-landing-page/wp-content/uploads/sites/61/2017/05/hero.jpg );
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 800px;
+
+
+}
+.box50{
+	width: 50%;
+	float: left;
+}
+.box50 h2{
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+    font-size: 36px;
+    padding-top: 260px;
+    width: 50%;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+form{
+	width: 30%;
+	margin: 130px;
+	background-color: #4a4a4a;
+	float: right
+}
+fieldset.account-info{
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	margin: 10px;
+
+}
+.contact-form-wrapper{
+	width: 50%;
+	margin: 0 auto;
+	}
+	.btn{
+		color: white;
+		text-transform: uppercase;
+		border-radius: 5px;
+		background: blue;
+		border: none;
+		width: 90%;
+	
+	}
+	fieldset{
+		border:none;
+		text-align: center;
+	}
+	label{
+		display:block; 
+		padding: 10px;
+	}
+input{
+	height: 40px;
+	padding-left: 10px;
+}
+ .form p{
+	text-transform: capitalize;
+	font-size: 30px;
+	color: whitesmoke;
+	font-weight: bold;
+}
+.clearfix{
+	clear: both;
+}
+.container1{
+	background-color:#272727;
+	border-bottom: 2px solid black;
+}
+.naslov{
+	width: 60%;
+	margin: 0 auto;
+	color: white;
+	font-size:30px;
+	padding: 80px;
+	text-align: center;
+}
+.tekst{
+	width: 33.3%;
+	margin: 0 auto;
+	float: left;
+	padding: 100px;
+
+}
+i{
+	color: rgb(6, 6, 126);
+}
+h3{
+	color: white;
+	font-weight: bold;
+	text-transform: capitalize;
+	display: inline;
+padding: 10px;
+
+}
+.tekst p{
+	text-align: left;
+	color: white;
+	font-size: medium;
+	margin: 5px;
+
+padding-left: 23px;
+}
+.container2{
+height: 560px;
+background-color: #272727;
+}
+.box40{
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding-top: 150px;
+
+}
+iframe{
+	margin:30px;
+}
+.box40 h1{
+	color: white;
+	text-transform: capitalize;
+	padding: 20px;
+	width: 60%;
+	
+
+}
+.box40 p{
+	padding: 15px;
+	text-align: left;
+	width: 60%;
+	color: white;
+}
+.container3{
+	background-image: url(http://highgradelab.com/stash/dark-landing-page/wp-content/uploads/sites/61/2017/05/quote-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+.misla{
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+	padding-top: 150px;
+}
+.misla h1{
+	text-align: center;
+	color: white;
+}
+.misla h3{
+	text-align: center;
+	display: block;
+	color: white;
+	
+}
+.container4{
+	background-color: #272727;
+}
+.box20{
+	float:left;
+	width: calc(33.3% - 100px);
+	margin: 0 auto;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 50px;
+	
+}
+.box20 h3{
+	text-align: center;
+	display: block;
+}
+.box20 i{
+	text-align: center;
+
+display: block;
+}
+.box20 h1{
+	font-size: 50px;
+color: white;
+display: block;
+text-align: center;
+}
+.box20 p{
+	text-align: center;
+	color: white;
+}
+button{
+	background-color: #272727;
+	border-radius: 3px;
+	border: 1px solid white;
+	text-align: center;
+	padding: 10px;	
+	width: 50%;
+	color: white;
+}
+.slika{
+	background-image: url(http://highgradelab.com/stash/dark-landing-page/wp-content/uploads/sites/61/2017/05/pricing-bg.jpg?id=78);
+}
+.lastone{
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.lastone h1{
+	color: white;
+	text-align: center;
+text-transform: capitalize;
+padding: 40px;
+}
+.lastone p{
+	color: white;
+	text-align: center;
+text-transform: capitalize;
+padding: 10px;
+}
+.but{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	text-transform: uppercase;
+}
+.container5{
+	background-image: url(http://highgradelab.com/stash/dark-landing-page/wp-content/uploads/sites/61/2017/05/cta-bg.jpg);
+height: 700px;
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+margin-top:-60px;
+}
+.main-text h1{
+	color: white;
+	text-align: left;
+	padding-top: 150px;
+	width: 30%;
+	margin: 60px;
+}
+.main-text p{
+	padding-left: 60px;
+	width: 30%;
+	color: white;
+}
+.butt button{
+	border: 1px solid white;
+	text-transform: uppercase;
+	background-color: #1c46f2;
+	width: 10%;
+	margin: 70px;
+}
+.container6{
+	background-color: #272727;
+}
+ul li{
+	list-style: none;
+	padding: 10px;
+	text-transform: uppercase;
+	color: white;
+	float: left;
+}
+@media screen and (max-width: 767px){
+	.box50{
+		float: none;
+	padding: 20px;
+	width: 100%;
+	}
+	.box50 h2{
+		padding-top: 100px;
+	width: 50%;
+	}
+
+	form{
+		width: 100%;
+	margin: 0 auto;
+	padding: 25px;
+	}
+	input{
+		width: 100%;
+	}
+	.naslov{
+		width: 100%;
+	}
+	.tekst{
+		float:none;
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		padding: 20px;
+	}
+	.container2{
+	height: 1000px;
+}
+	.box40{
+		float: none;
+		padding: 20px;
+		width: 80%;
+		margin: 0 auto;
+
+	}
+.box40 h1{
+	width: 90%;
+	margin:0 auto;
+	text-align: left;
+}
+.box40 p{
+	width: 90%;
+	margin:0 auto;
+	text-align: left;
+}
+.box20{
+	float:none;
+	width: 80%;
+	border: 1px solid black;
+	padding: 20px;
+}
+.main-text h1{
+	width: 90%;
+	text-align: left;
+}
+.main-text p{
+	width: 90%;
+	text-align: left;	
+}
+.butt button{
+	border: 1px solid white;
+	text-transform: uppercase;
+	background-color: #1c46f2;
+	width: 40%;
+	margin: 70px;
+}
+ul li{
+	padding: 5px;
+	
+}
+.container6 p{
+	width: 80%;
+	margin: 0 auto;
+}

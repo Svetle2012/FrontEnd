@@ -1,0 +1,124 @@
+* {
+	font-family:'Lato';
+	box-sizing: border-box;
+}
+h1,h2,h3,ul,ul li{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.glavnomeni{
+	width: 20%;
+	background-color: black;
+	color: white;
+	position: fixed;
+	height: 100%;
+}
+.meni ul li{
+	list-style-type: none;
+	text-align: center;
+	padding:10px 0;
+}
+li{
+	margin: 20px;
+	text-transform: uppercase;
+}
+.desnomeni{
+	padding-left: 20%;
+   
+}
+iframe{
+	padding: 30px;
+}
+.glavnomeni img{
+	padding: 30px;
+	text-align: center;
+}
+.slika{
+background-image:url("https://i1.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/05/m27-s1.jpg?fit=1920%2C1008&zoom=2&ssl=1 main slider");
+height: 500px;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.openingtime{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: right;
+	background-color: rgba(12, 12, 12, 0.404);
+	padding: 20px;
+	color: white;
+}
+.container{
+	text-align: center;
+	padding: 30px;
+}
+.container h2{
+	text-transform: capitalize;
+	padding: 10px;
+}
+.container img{
+	padding: 30px;
+}
+.row{
+	display:flex;
+	justify-content: space-between; 
+	
+}
+.daily{
+	width: calc( 33% - 20px);
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+	margin: 10px;
+	position: relative;
+}
+.container h1{
+	position: absolute;
+    margin: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 50%;
+}
+.container h3{
+	text-transform: capitalize;
+	padding: 30px;
+}
+.row {
+	border-bottom: 1px solid black;
+}
+ i{
+	border-radius: 50%;
+	background-color: gold;
+	padding: 10px;
+	color: white;
+}
+.slika1 img{
+	width: 100%;
+}
+.slika2 img{
+	width: 50%;
+	float: left;
+	margin: -3px;
+}
+.sliki{
+	width: 100%;
+}
+.clearfix {
+	clear: both;
+}
+.container h2 h3{
+	text-align: center;
+	
+}
+.zvezdi{
+	text-align: center;
+}
